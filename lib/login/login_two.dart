@@ -201,7 +201,7 @@ class forgotten_password extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return RichText(
-      textAlign: TextAlign.start,
+      textAlign: TextAlign.end,
       text: TextSpan(
         children: <InlineSpan>[
         TextSpan(
@@ -226,7 +226,7 @@ class registerOpt extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return RichText(
-      textAlign: TextAlign.left,
+      textAlign: TextAlign.justify,
       text: TextSpan(
         children: <InlineSpan>[
           const TextSpan(

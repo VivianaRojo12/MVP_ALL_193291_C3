@@ -78,7 +78,10 @@ class _RecoverPassState extends State<RecoverPass> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 25.0, right: 25.0),
+                  padding: const EdgeInsets.only(
+                    left: 25, 
+                    right: 25
+                  ),
                   child: TextFormField(
                     decoration: InputDecoration(
                       border: OutlineInputBorder(
@@ -88,7 +91,7 @@ class _RecoverPassState extends State<RecoverPass> {
                       hintStyle:
                           const TextStyle(color: Color.fromARGB(255, 161, 161, 161)),
                       hintText: "Dirección de correo",
-                      fillColor: Colors.white70,
+                      fillColor: const Color.fromRGBO(255, 255, 255, 0.702),
                     ),
                     
                     validator: (value) {
@@ -114,7 +117,9 @@ class _RecoverPassState extends State<RecoverPass> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 285),
+                  padding: const EdgeInsets.only(
+                    top: 285
+                  ),
                   child: SizedBox(
                     height: 50,
                     width: 350,
